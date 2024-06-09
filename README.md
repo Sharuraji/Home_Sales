@@ -25,7 +25,7 @@ Ran the same query to determine and compare the runtime
 
 Uncashed the temporary table and varified is it uncached.
 
-Conclusin
+Conclusion
 
 Caching and partitioning the table reduce runtime compared to run on tempviews. This is because when we cache data saved on our local memory so every time it does not go to cloud to extract data.
 In this example runtime is slightly reduced becuase of the size the data if this is a scenario in a bigdata like size of terrabite or pentabite it will considerably save time as well as resources.
